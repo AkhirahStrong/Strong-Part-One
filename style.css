@@ -1,0 +1,112 @@
+
+/*Global*/
+body{
+    font-family: 'Golos Text', sans-serif;
+}
+
+h1{
+   color: #20a8b4;
+}
+
+a {
+    text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+    color: #ff5c0f;
+}
+
+p{
+    font-size: 20px;
+}
+
+/*Hero Section*/
+img{
+    float: center;
+    position:relative;
+}
+
+.hero-image{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Section 1*/
+.unstyle{
+    display: flex; 
+    flex-direction: column;
+    font-size: 20px;
+    list-style-type: none;
+    margin-top: auto;
+    word-spacing: 0px;
+    
+  }
+  
+  .section-1{
+      background-color: #F2F2F2 ;
+      padding-bottom: 50px;
+      padding-top: 50px;
+  }
+  
+  .unstyle li{
+      margin-bottom: 10px;
+  }
+
+ /*Section 2*/ 
+.o-text{
+ color: #ff5c0f;
+}
+
+.learn {
+    margin-top: 50px;
+}
+
+
+/*Buttons*/
+button{
+    background-color: #20a8b4;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    margin: 10px;
+    padding: 12px;
+}
+
+button:hover{
+    background-color: #ff5c0f;
+}
+
+
+
+
+/*Media queries*/
+/* @media screen and (min-width: 768px) {
+    .hero-image {
+      display: none;
+    }
+
+    button{
+        width: 100%;
+    }
+
+    .o-text{
+        color: #ff5c0f;
+       }
+  } */
+  
+@media screen and (max-width: 769px) {
+    .hero-image {
+      display: none;
+    }
+
+    button{
+        width: 100%;
+    }
+
+    .o-text{
+        color: #ff5c0f;
+       }
+  }
