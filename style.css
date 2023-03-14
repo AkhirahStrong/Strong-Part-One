@@ -49,6 +49,7 @@ img{
       background-color: #F2F2F2 ;
       padding-bottom: 50px;
       padding-top: 50px;
+      margin: 0px;
   }
   
   .unstyle li{
@@ -97,16 +98,24 @@ button:hover{
        }
   } */
   
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     .hero-image {
       display: none;
     }
 
     button{
+        display: flex;
+        justify-items: left;
         width: 100%;
+        margin-left: -1.2px;
     }
 
     .o-text{
         color: #ff5c0f;
        }
+
+       .section-1{
+        background-color: #F2F2F2 ;
+        margin: -5px;
+    }   
   }
